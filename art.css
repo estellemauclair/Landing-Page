@@ -1,0 +1,43 @@
+    
+body {
+  background-color:#565656;
+  color: #E0E0E0;
+  font-weight: lighter;
+  font-family: 'Modern Love Grunge',sans-serif;
+  text-align: center;
+  line-height: 2;
+}
+
+a {
+  text-decoration: none;
+  transition: 0.5s ease;
+}
+
+    .container {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+    }
+
+    .art-piece {
+      width: 30%;
+      padding: 10px;
+    }
+
+    .art-piece img {
+      width: 100%;
+      height: auto;
+    }
+
+    .price-list {
+      background-color: #a99985;
+      margin-top: 20px;
+      text-align: center;
+      line-height: 2;
+    }
+
+    .price-list p {
+      font-size: 18px;
+      margin-bottom: 20px;
+
+    }
